@@ -3,13 +3,13 @@ import {
   Shield,
   ShieldCheck,
   Search,
-  TreePine,
+  Trees,
   ArrowRight,
 } from "lucide-react";
 
 import "../styles/Services.css";
 
-const serviceIcons = [Search, Shield, Bug, Bug, TreePine, ShieldCheck];
+const serviceIcons = [Search, Shield, Bug, Bug, Trees, ShieldCheck];
 
 const Services = ({ translations }) => {
   const services = translations.services;
@@ -17,10 +17,14 @@ const Services = ({ translations }) => {
   return (
     <section className="services" id="services">
       <div className="services__container">
-        <div className="services__header">
-          <span className="services__eyebrow">{services.eyebrow}</span>
-          <h2 className="services__title">{services.title}</h2>
-          <p className="services__text">{services.text}</p>
+        <div className="services__banner">
+          <div className="services__banner-overlay" />
+
+          <div className="services__banner-content">
+            <span className="services__eyebrow">{services.eyebrow}</span>
+            <h2 className="services__title">{services.title}</h2>
+            <p className="services__text">{services.text}</p>
+          </div>
         </div>
 
         <div className="services__grid">

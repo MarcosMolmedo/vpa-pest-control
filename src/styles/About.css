@@ -1,0 +1,190 @@
+.about {
+  background: var(--color-cream);
+  color: var(--color-dark);
+  padding: 4.5rem 0;
+}
+
+.about__container {
+  width: min(100% - 2rem, 1200px);
+  margin: 0 auto;
+
+  display: grid;
+  gap: 2.5rem;
+}
+
+.about__content {
+  max-width: 620px;
+}
+
+.about__eyebrow {
+  margin: 0 0 0.9rem;
+
+  color: var(--color-gold);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.about__title {
+  margin: 0;
+
+  max-width: 560px;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 7vw, 3.5rem);
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+}
+
+.about__text {
+  margin: 1.35rem 0 0;
+
+  max-width: 530px;
+
+  color: rgba(16, 20, 18, 0.78);
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.about__list {
+  margin: 2rem 0 0;
+  padding: 0;
+
+  display: grid;
+  gap: 1rem;
+
+  list-style: none;
+}
+
+.about__item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+
+  color: rgba(16, 20, 18, 0.84);
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+.about__icon {
+  width: 2rem;
+  height: 2rem;
+
+  flex: 0 0 auto;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--color-green);
+  border: 1px solid rgba(18, 56, 45, 0.22);
+  border-radius: 999px;
+}
+
+.about__signature {
+  margin-top: 2.3rem;
+}
+
+.about__signature-name {
+  margin: 0;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.45rem;
+  font-style: italic;
+  color: var(--color-dark);
+}
+
+.about__signature-role {
+  margin: 0.35rem 0 0;
+
+  color: rgba(16, 20, 18, 0.62);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.about__media {
+  position: relative;
+
+  min-height: 480px;
+
+  overflow: hidden;
+  border: 1px solid rgba(16, 20, 18, 0.12);
+  border-radius: 0.45rem;
+  background: var(--color-sage);
+}
+
+.about__image {
+  width: 100%;
+  height: 100%;
+  min-height: 480px;
+
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+.about__quote {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  left: 1rem;
+
+  padding: 1.35rem;
+
+  background: var(--color-green);
+  color: var(--color-white);
+}
+
+.about__quote p {
+  margin: 0;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.15rem, 5vw, 1.55rem);
+  font-weight: 400;
+  line-height: 1.35;
+}
+
+@media (min-width: 768px) {
+  .about {
+    padding: 6rem 0;
+  }
+
+  .about__container {
+    grid-template-columns: 0.9fr 1.1fr;
+    align-items: stretch;
+    gap: 3rem;
+  }
+
+  .about__content {
+    align-self: center;
+  }
+
+  .about__quote {
+    right: 0;
+    bottom: 0;
+    left: auto;
+
+    width: min(75%, 380px);
+    padding: 1.7rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .about {
+    padding: 7rem 0;
+  }
+
+  .about__container {
+    gap: 4rem;
+  }
+
+  .about__media {
+    min-height: 620px;
+  }
+
+  .about__image {
+    min-height: 620px;
+  }
+}
