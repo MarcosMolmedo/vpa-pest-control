@@ -1,12 +1,19 @@
 export const en = {
-  header: {
-    logo: "VPA",
-    subtitle: "Pest Control",
-    nav: ["Home", "Services", "About VPA", "Method", "Contact"],
-    phone: "085 20 33 744",
-    language: "NL",
-  },
-
+ header: {
+  logo: "VPA",
+  subtitle: "Pest Control",
+  nav: [
+    "Home",
+    "Services",
+    "About VPA",
+    "Method",
+    "Certifications",
+    "Service Area",
+    "Contact",
+  ],
+  phone: "085 20 33 744",
+  language: "NL",
+},
   hero: {
     eyebrow: "Professional pest control",
     title: "Pest control solutions with expertise and care.",
@@ -151,6 +158,73 @@ export const en = {
       text: "Years of practical experience ensure calm communication, clear advice and effective solutions.",
     },
   ],
+},
+serviceArea: {
+  eyebrow: "Service area",
+  title: "Active across Central Netherlands.",
+  text: "VPA Pest Control works locally, quickly and carefully. From our region, we help homeowners and businesses with professional pest control and preventive advice.",
+  cardTitle: "Areas we cover",
+  visualLabel: "Overview of the service area of VPA Pest Control",
+  areas: [
+    "Leersum",
+    "Utrecht",
+    "Amersfoort",
+    "Veenendaal",
+    "Zeist",
+    "Doorn",
+    "Wijk bij Duurstede",
+    "Driebergen",
+    "And surrounding areas",
+  ],
+  highlights: [
+    "Active in Central Netherlands",
+    "On site within 24 hours",
+    "Local, reliable and professional",
+  ],
+  note: "Is your town not listed? Feel free to contact us. In many cases, we can also quickly reach nearby villages and cities.",
+},
+contactCta: {
+  eyebrow: "Need direct advice",
+  title: "A calm solution for an urgent problem.",
+  text: "Contact us for a discreet inspection, clear advice and an approach tailored to your home, business or property.",
+  primaryButton: "Call now",
+  secondaryButton: "Request advice",
+},
+footer: {
+  statement:
+    "Discreet. Professional. Sustainable. Pest control for homes and businesses.",
+
+  navigationTitle: "Navigation",
+
+  navigation: [
+    { label: "Home", href: "#home" },
+    { label: "Services", href: "#services" },
+    { label: "About", href: "#about" },
+    { label: "Process", href: "#process" },
+    { label: "Service Area", href: "#service-area" },
+    { label: "Contact", href: "#contact" },
+  ],
+
+  contactTitle: "Contact",
+
+  phone: "+31 (0)6 53 84 64 23",
+
+  email: "info@vpaplaagbeheersing.nl",
+
+  serviceArea: "Leersum • Utrecht • Amersfoort • Zeist",
+
+  informationTitle: "Information",
+
+  information: [
+    "Fictional company",
+    "No real services provided",
+    "Portfolio demonstration",
+  ],
+
+  portfolio:
+    "This website was created exclusively as a portfolio project and does not represent a real company.",
+
+  copyright: "© 2026 VPA Plaagbeheersing",
 },
 
 };

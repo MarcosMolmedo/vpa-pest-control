@@ -8,6 +8,10 @@ import Services from "./components/Services";
 import About from "./components/About";
 import Process from "./components/Process";
 import Certifications from "./components/Certifications";
+import ServiceArea from "./components/ServiceArea";
+import ContactCTA from "./components/ContactCTA";
+import Footer from "./components/Footer";
+
 
 import "./styles/global.css";
 
@@ -35,6 +39,9 @@ function App() {
         <About translations={translations} />
         <Process translations={translations} />
         <Certifications translations={translations} />
+        <ServiceArea translations={translations} />
+        <ContactCTA translations={translations} />
+         <Footer translations={translations} />
       </main>
     </div>
   );
